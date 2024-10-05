@@ -40,7 +40,7 @@ Se você está curioso para ver como a página funciona, siga este passo a passo
 1. **Clone o Repositório**:
    Abra seu terminal e execute:
    ```bash
-   git clone https://github.com/nordffa/desafio-Lions-Seminovos
+   git clone https://github.com/nordffa/desafio-Lions-Seminovos.git
    
   Localize o arquivo index.html dentro da pasta do projeto.
   Clique com o botão direito no arquivo e selecione "Abrir com" e escolha o navegador de sua preferência (como Google Chrome ou Firefox).

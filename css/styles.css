@@ -1,0 +1,287 @@
+main {
+    padding-top: 70px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 80%;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 0.9em;
+}
+
+.mulher {
+    width: 100%;
+    height: auto;
+}
+
+.texto-menor {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.texto-mulher {
+    margin: 0;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+header {
+    background: #9c0001;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+}
+
+.cta-button {
+    background: #fff;
+    color: #FF6F61;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9c0001;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logotipo {
+    max-width: 120px;
+}
+
+.botao-vermelho {
+    background-color: #9c0001;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.botao-vermelho:hover {
+    background-color: #9c0001;
+}
+
+.subt1 {
+    font-weight: bold;
+    color: black;
+}
+
+.subt2 {
+    font-size: smaller;
+}
+
+.subt3 {
+    color: #BF2D2D;
+}
+
+.sobre-imagem {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    color: black;
+    text-align: left;
+    font-size: 10px;
+}
+
+.imagem-fundo {
+    width: 100%;
+    height: auto;
+}
+
+.container3 {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.barra-navegacao {
+    padding-bottom: 15px;
+}
+
+.barra-navegacao a {
+    color: red;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.barra-navegacao a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Responsividade usando media queries */
+@media (max-width: 1200px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    .container,
+    .container2 {
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2.1em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+    .container,
+    .container2 {
+        font-size: 0.8em; /* Para telas médias, redução adicional */
+    }
+
+    .texto-menor {
+        font-size: 0.9em; /* Ajuste da fonte menor */
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 13px; /* Consideravelmente menor para dispositivos móveis */
+    }
+
+    h1 {
+        font-size: 1.9em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .container,
+    .container2 {
+        font-size: 0.75em; /* Para dispositivos móveis, ajuste conforme necessário */
+    }
+
+    .texto-menor,
+    .texto-mulher {
+        font-size: 0.7em; /* Aumentar a redução para textos menores em telas pequenas */
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 12px; /* Para smartphones */
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .container,
+    .container2 {
+        font-size: 0.7em; /* Para smartphones, redução significativa */
+    }
+}
